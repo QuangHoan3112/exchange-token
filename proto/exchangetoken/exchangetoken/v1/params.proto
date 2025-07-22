@@ -1,0 +1,13 @@
+syntax = "proto3";
+package exchangetoken.exchangetoken.v1;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "exchange-token/x/exchangetoken/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "exchangetoken/x/exchangetoken/Params";
+  option (gogoproto.equal) = true;
+}
