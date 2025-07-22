@@ -49,7 +49,7 @@ sudo apt install net-tools
 ## 🛠️ Bước 1: Cài đặt trên cả 3 máy
 
 ```bash
-git clone https://github.com/yourname/exchange-token.git
+git clone https://github.com/QuangHoan3112/exchange-token.git
 cd exchange-token
 ignite chain build
 
